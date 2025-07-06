@@ -5,6 +5,7 @@ QAgenie is an intelligent, AI-powered Quality Assurance assistant that automates
 It analyzes "How-to" videos, understands user flows, and automatically builds reliable Playwright tests—making your testing process faster, more thorough, and error-free.
 
 🎯 Key Features
+
 ✅ AI Test Case Generator
 
 Extracts transcripts from Recruter.ai tutorial YouTube videos
