@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Create Interview with Existing Job Description",
+    "description": "Verify the creation of an interview using a pre-existing job description.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Paste a valid job description into the provided field.",
+        "expected_result": "Job description is accepted and displayed correctly.",
+        "element_locator": "#job-description-input",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Click the 'Create Interview' button.",
+        "expected_result": "Interview is created successfully, and a unique interview link is displayed.",
+        "element_locator": "#create-interview-button",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "interview creation",
+      "happy path",
+      "job description"
+    ],
+    "priority": "high",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  },
+  {
+    "title": "Create Interview using Enhanced JD Feature",
+    "description": "Verify the creation of an interview using the enhanced JD feature with a job title.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Enter a job title (e.g., 'JavaScript Developer') into the enhanced JD field.",
+        "expected_result": "The AI generates a job description based on the provided job title.",
+        "element_locator": "#enhanced-jd-input",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Click the 'Create Interview' button.",
+        "expected_result": "Interview is created successfully using the AI-generated job description.",
+        "element_locator": "#create-interview-button",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "interview creation",
+      "enhanced JD",
+      "AI generation"
+    ],
+    "priority": "high",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  },
+  {
+    "title": "Customize Interview Questions",
+    "description": "Verify the ability to customize the AI-suggested interview questions.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Review the AI-suggested questions.",
+        "expected_result": "AI suggests standard and role-based questions based on the job description.",
+        "element_locator": ".suggested-questions",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Edit an existing question and add a new question.",
+        "expected_result": "Changes are saved, and the updated questions are reflected.",
+        "element_locator": ".question-editor",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "question customization",
+      "interview editing"
+    ],
+    "priority": "medium",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  },
+  {
+    "title": "Select AI Avatar (Advanced Plan)",
+    "description": "Verify the functionality to select an AI avatar for advanced plan users.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Navigate to the AI avatar selection section.",
+        "expected_result": "Avatar selection options are displayed.",
+        "element_locator": "#ai-avatar-selector",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Select an AI avatar.",
+        "expected_result": "Selected avatar is applied and confirmed.",
+        "element_locator": ".avatar-option",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "advanced plan",
+      "AI avatar",
+      "lip syncing"
+    ],
+    "priority": "medium",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  },
+  {
+    "title": "Handle Empty Job Description Input",
+    "description": "Verify system behavior when creating an interview with an empty job description.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Leave the job description field empty and click 'Create Interview'.",
+        "expected_result": "An appropriate error message is displayed indicating the required field.",
+        "element_locator": "#job-description-input",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Enter a job description and click 'Create Interview'.",
+        "expected_result": "Interview is created successfully.",
+        "element_locator": "#create-interview-button",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "error handling",
+      "empty input",
+      "validation"
+    ],
+    "priority": "high",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  },
+  {
+    "title": "Remove and Reorder Questions",
+    "description": "Verify the ability to remove and reorder interview questions.",
+    "category": "functional",
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Select a question and click the 'Remove' button.",
+        "expected_result": "The selected question is removed from the list.",
+        "element_locator": ".remove-question-button",
+        "input_data": "",
+        "notes": null
+      },
+      {
+        "step_number": 2,
+        "action": "Drag and drop questions to reorder them.",
+        "expected_result": "The order of questions is updated accordingly.",
+        "element_locator": ".question-item",
+        "input_data": "",
+        "notes": null
+      }
+    ],
+    "tags": [
+      "question management",
+      "drag-and-drop",
+      "UI interaction"
+    ],
+    "priority": "medium",
+    "generated_by": "QAgenie",
+    "testing_approach": "Systematic validation"
+  }
+]
